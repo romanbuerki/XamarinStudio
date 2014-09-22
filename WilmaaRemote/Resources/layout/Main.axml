@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5">
+        <Button
+            android:text="Settings"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btnSettings" />
+    </LinearLayout>
+    <Button
+        android:text="ZapUp"
+        android:id="@+id/buttonUP"
+        android:layout_width="match_parent"
+        android:layout_height="134.2dp" />
+    <Button
+        android:text="ZapDown"
+        android:layout_width="match_parent"
+        android:layout_height="134.2dp"
+        android:id="@+id/buttonDown"
+        android:src="@drawable/ArrowDown" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="66.9dp"
+        android:id="@+id/relativeLayout1"
+        android:layout_marginLeft="11.0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout3">
+            <Button
+                android:text="VDown"
+                android:layout_width="108.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonVDown" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout2"
+            android:layout_below="@id/linearLayout2">
+            <Button
+                android:text="Mute"
+                android:layout_width="109.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonVMute"
+                android:layout_marginLeft="115.4dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <Button
+                android:text="VUp"
+                android:layout_width="109.0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonVUp"
+                android:layout_marginLeft="228.9dp" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="104.4dp"
+        android:id="@+id/frameLayout1"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="37.1dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout4"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="18.1dp"
+            android:layout_marginLeft="29.1dp">
+            <Button
+                android:text="Close"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonClose"
+                android:layout_gravity="center_vertical" />
+            <Button
+                android:text="Shutdown"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:id="@+id/buttonS" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
